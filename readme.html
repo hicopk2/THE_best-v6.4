@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TCRACK (The Best) — By HICOPK</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --main-bg: #92a8d1;
+      --accent: #ffef9f;
+      --primary: #143059;
+      --secondary: #cb2121;
+      --white: #fff;
+      --faded: #f5f6fa;
+      --shadow: 0 2px 12px rgba(20,48,89,0.07);
+    }
+    body {
+      font-family: 'Montserrat', Arial, sans-serif;
+      background: var(--main-bg);
+      color: var(--primary);
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: var(--primary);
+      color: var(--white);
+      padding: 16px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 {
+      font-size: 2.4rem;
+      letter-spacing: 2px;
+      margin: 0;
+    }
+    nav {
+      display: flex;
+      gap: 20px;
+    }
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: color 0.2s;
+    }
+    nav a:hover {
+      color: var(--white);
+      border-bottom: 2px solid var(--accent);
+    }
+    .container {
+      max-width: 780px;
+      margin: 40px auto 20px auto;
+      background: var(--white);
+      box-shadow: var(--shadow);
+      border-radius: 16px;
+      padding: 36px 30px 32px 30px;
+    }
+    .section {
+      margin-bottom: 38px;
+    }
+    .section:last-child {
+      margin-bottom: 0;
+    }
+    .section h2 {
+      font-size: 1.4rem;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--secondary);
+    }
+    .email-box {
+      display: inline-block;
+      background: var(--accent);
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-weight: 600;
+      color: var(--primary);
+      word-break: break-all;
+      box-shadow: 0 1px 4px rgba(20,48,89,0.06);
+      margin-top: 7px;
+    }
+    .highlight {
+      background: var(--accent);
+      color: var(--primary);
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-weight: 700;
+      animation: blink 1s steps(2, start) infinite;
+    }
+    @keyframes blink {
+      50% { background: var(--white);}
+    }
+    ul {
+      padding-left: 18px;
+    }
+    .divider {
+      text-align: center;
+      color: #b5b5b5;
+      margin: 40px 0 25px 0;
+      font-size: 1.2rem;
+      letter-spacing: 3px;
+    }
+    .footer {
+      background: var(--primary);
+      color: var(--accent);
+      text-align: center;
+      padding: 16px 0 12px 0;
+      font-size: 1em;
+      margin-top: 40px;
+      border-radius: 0 0 6px 6px;
+    }
+    .icon {
+      font-size: 1.2em;
+      vertical-align: middle;
+    }
+    @media (max-width: 700px) {
+      .container { padding: 18px 2vw; }
+      header { flex-direction: column; gap:8px; padding: 12px 5vw;}
+      nav { flex-direction: column; gap:6px;}
+      .divider { font-size: 0.85rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TCRACK (The Best)</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#signup">Get Updates</a>
+      <a href="#owner">The Owner</a>
+      <a href="#when">Contact Hours</a>
+      <a href="#what">What Is TCRACK?</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <div class="section" id="about">
+      <h2><span class="icon">🚧</span>Beta Notice</h2>
+      <p><span class="highlight">TCRACK IS STILL IN BETA</span> — If you find any bugs, please let me know!</p>
+      <p class="divider">— — — — — —</p>
+      <p>
+        
+        Hi! I’m HICOPK, the creator of this project and the owner of TCRACK (my own version, which I like to call the best). This remake was built entirely for learning, creativity, and helping others understand how tools like this work from a technical perspective.
+        <em>Disclaimer: I do not own or claim any rights to the original TCRACK. This project is a personal recreation developed purely for educational and experimental purposes, so others can explore, learn, and grow alongside me as we dive deeper into development and innovation.</em>
+      </p>
+      <p>
+        People often ask: <q>Do you make money off TCRACK?</q>  
+        The answer is <b>no</b>! I don’t earn any money from TCRACK. The only reward I get is the happiness of seeing you all use and enjoy it.
+      </p>
+    </div>
+
+    <div class="section" id="signup">
+      <h2><span class="icon">📧</span>Get Notified!</h2>
+      <p>Want to be the first to know about TCRACK updates?</p>
+      <ul>
+        <li>Send an email with the subject or message “<b>TCRACK IS THE BEST</b>” to:</li>
+        <div class="email-box">hicopkv2@gmail.com</div>
+        <li>You’ll be added to the update list and get an email each time TCRACK gets a big update.</li>
+      </ul>
+    </div>
+
+    <div class="section" id="owner">
+      <h2><span class="icon">👦</span>About the Owner</h2>
+      <ul>
+        <li>Name: <b>HICOPK</b> (<em>pronounced “hi-cop-i-ka”</em>)</li>
+        <li>Age: 14 &nbsp;|&nbsp; Gender: Male</li>
+        <li>Loves coding and making music</li>
+        <li>Favorite colors: red, blue, black</li>
+        <li>Proud owner of 3 cats and 2 dogs</li>
+      </ul>
+    </div>
+
+    <div class="section" id="when">
+      <h2><span class="icon">⏰</span>When I’ll Respond</h2>
+      <ul>
+        <li><b>Weekdays:</b> 6:30 AM – 9:00 AM &amp; 3:30 PM – 9:00 PM</li>
+        <li><b>Weekends:</b> 8:00 AM – 9:00 PM</li>
+      </ul>
+    </div>
+
+    <div class="divider">……………………………………………………………</div>
+
+    <div class="section" id="what">
+      <h2><span class="icon">💡</span>What is TCRACK?</h2>
+      <p>
+        TCRACK is a browser, inspired by Opera GX, but designed for use on Chromebooks and school devices.  
+        You can use it to browse with Google, search for info, and even play games.
+      </p>
+      <p>
+        <b>Next big update:</b> Full Spanish (<b>en español</b>) support!
+      </p>
+      <div class="section" style="margin-top:16px;">
+        <span class="highlight">Disclaimer: I do not own the real TCRACK, this is a personal remake.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 HICOPK • Built for you with love &amp; code.
+  </div>
+</body>
+</html>

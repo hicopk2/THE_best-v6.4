@@ -1,0 +1,167 @@
+* {
+  font-family: "Times New Roman", serif;
+}
+/* Chrome Gold Gradient Variables */
+:root {
+  --chrome-gold-gradient: linear-gradient(90deg,
+      #fffde4 0%,
+      #fff7b2 9%,
+      #ffe366 25%,
+      #ffd700 35%, /* base gold */
+      #fff7b2 55%,
+      #bfa236 75%,
+      #fffde4 100%);
+  --chrome-gold-border: linear-gradient(90deg,
+    #f9e79f, #ffd700 60%, #fff7b2 100%);
+}
+body {
+  background-image: url("https://i.postimg.cc/N0xMSpMZ/d2881cdd-fdf5-4968-a1f4-b5fe36f7445b-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Chrome Gold Buttons */
+button {
+  background: var(--chrome-gold-gradient);
+  color: #222;
+  border: 2px solid #FFD700;
+  font-weight: bold;
+  box-shadow: 0 2px 8px #0008, 0 0 0 4px #ebc70033 inset;
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+}
+button:hover {
+  background: #222;
+  color: #ffd700;
+  border: 2px solid #ffd700;
+  box-shadow: 0 4px 16px #ffd70055;
+}
+
+/* Title Styling */
+#title h1 {
+  text-align: center;
+  background: var(--chrome-gold-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 500%;
+  text-shadow: 0 2px 15px #000b, 0 6px 32px #fff5;
+}
+#title p {
+  background: var(--chrome-gold-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  text-shadow: 0 2px 8px #000b;
+}
+
+/* Text Background with Chrome Gold Accent */
+#text-background {
+  background-color: rgba(30, 30, 30, 0.94);
+  color: #fffbe0;
+  padding: 12px 24px;
+  display: inline-block;
+  border-radius: 12px;
+  border: 2px solid #FFD700;
+  box-shadow: 0 2px 12px #ffd70088, 0 4px 16px #000a;
+}
+
+/* Gold Text with Sheen */
+p, li {
+  background: var(--chrome-gold-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 1px 6px #000d, 0 3px 12px #fff4;
+}
+
+li {
+  text-align: justify;
+}
+
+/* Center Game Container */
+#game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Hub Menu - Chrome Gold Box */
+#hub-menu {
+  text-align: center;
+}
+#hub-menu ul {
+  list-style: none;
+  padding: 0;
+  border: 3px solid #ffd700;
+  background: linear-gradient(95deg, #111 70%, #ffd70022 100%);
+}
+#hub-menu ul li {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 10px;
+  background: var(--chrome-gold-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 8px 18px;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+#hub-menu ul li:hover {
+  background: #ffd700;
+  color: #111;
+  text-decoration: underline;
+  -webkit-text-fill-color: #111;
+}
+
+/* Game Menu */
+#game-menu {
+  text-align: center;
+}
+#game-menu ul {
+  list-style: none;
+  padding: 0;
+}
+#game-menu ul li {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 10px;
+  background: var(--chrome-gold-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 8px 18px;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+#game-menu ul li:hover {
+  background: #ffd700;
+  color: #111;
+  text-decoration: underline;
+  -webkit-text-fill-color: #111;
+}
+
+/* Fullscreen Button Centered */
+#fullscreen-btn {
+  display: block;
+  margin: 20px auto;
+  background: var(--chrome-gold-gradient);
+  color: #111;
+  border: 2px solid #FFD700;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 12px #ffd70088;
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+}
+#fullscreen-btn:hover {
+  background: #111;
+  color: #ffd700;
+  box-shadow: 0 6px 24px #ffd70088;
+}
+
+/* Absolute Center Utility */
+.center {
+  position: absolute;
+  left: 47.2%;
+  top: 45%;
+}
